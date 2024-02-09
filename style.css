@@ -1,0 +1,29 @@
+.navigate .logo img{
+   width: 70%; 
+}
+li{
+    list-style: none;
+    padding-right: 20px;
+    padding-top:10px;
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+ol{
+    display: flex;
+}
+ol button{
+    background: transparent;
+    border: 1px solid purple;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+ol button:hover{
+    background: #7b00c3;
+    color: white;
+}
